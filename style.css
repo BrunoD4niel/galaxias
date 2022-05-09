@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "galax";
+    src: url(fonts/Pixellari.ttf);
+}
+
+:root {
+
+    --cor1: white;
+    --cor2: #859ED8;
+
+    --font-galax: "galax";
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image:linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.74));
+    font-family: Arial, Helvetica, sans-serif;      
+    
+}
+
+header {
+    background-color: var(--cor1);
+    height: 140px;
+    padding-top: 20px;
+    text-align: center;       
+    
+}
+
+h1 {
+    padding-top: 10px;
+    font-family: var(--font-galax);
+    font-size: 50px;
+}
+
+header > p {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: var(--cor2);
+    padding-left: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
+    
+}
+
+ details > a {
+    text-decoration: none;
+    color: black;
+    padding: 1px 5px 1px 5px;
+
+}
+
+details > a:hover {
+    background-color: rgba(255, 255, 255, 0.349);
+    color: white
+}
+
+main {
+    background-color: var(--cor1);
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+}
+
+h2 {
+    font-family: var(--font-galax);
+    font-size: 30px;
+}
+
+#titulovideo {
+    text-align: center;
+}
+
+h2, main  p {
+    padding: 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+aside {
+    background-color: var(--cor2);
+    border-radius: 0px 0px 10px 10px
+}
+
+aside li {
+    padding-bottom: 15px;
+}
+
+h3 {
+    background-color: var(--cor2);
+    padding-left: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
+footer {
+    background-color: var(--cor2);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+img {
+    padding-left: 15px;
+}
+
+strong {
+    background-image: linear-gradient(to right, #859ED8, rgba(255, 255, 255, 0.301));
+    font-size: 20px;
+}
+
+#video {
+    width: 100%;
+}
+
+
+
+
