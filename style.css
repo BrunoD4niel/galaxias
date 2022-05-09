@@ -134,6 +134,7 @@ footer {
 
 img {
     padding-left: 15px;
+    max-width: 300px;
 }
 
 strong {
